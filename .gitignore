@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Data and Artifacts
+data/
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.h5
+*.parquet
+
+# Libraries & Tools logs / caches
+catboost_info/
+*.db
+*.sqlite
+*.sqlite3
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
